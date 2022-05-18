@@ -1,0 +1,26 @@
+{
+  "name": "canvasproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "node test/inverter-test-1.js",
+    "test2": "node test/inverter-test-2.js",
+    "test3": "node test/inverter-test-3.js",
+    "test4": "node test/inverter-test-4.js",
+    "test5": "node test/contraster-test-1.js",
+    "test6": "node test/contraster-test-2.js",
+    "test7": "node test/contraster-test-3.js",
+    "test8": "node test/contraster-test-4.js",
+    "test": "npm run test1 && npm run test2 && npm run test3 && npm run test4 && npm run test5 && npm run test6 && npm run test7 && npm run test8",
+    "invert": "node inverter.js",
+    "contrast": "node contraster.js",
+    "adjust": "node adjust.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.1"
+  }
+}
